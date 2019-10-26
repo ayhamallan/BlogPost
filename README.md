@@ -9,7 +9,10 @@ To run the App Please follow the following instructions :
 
 2 - Update Database Migrations As Follow :
   
-  * For Blog.Web => Set Blog.DataModel as StartUp Project => From Command Line Update-Database 
+  * For Blog.Web => Set Blog.DataModel as StartUp Project => From Command Line 
+  
+      - Update-Database 
+      
   * For Blog.Security => Set Blog.Security.Infrastructure as a StartUp Project => From Command Line 
       
       - Update-Database -Context BlogIdentityDbContext
