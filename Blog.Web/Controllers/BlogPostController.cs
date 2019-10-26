@@ -35,12 +35,6 @@ namespace Blog.Web.Controllers
         {
             return _blogPostService.GetPaged(pageNo , rowNo);
         }
-        [NonAction]
-        [AllowAnonymous]
-        public IActionResult PostNotification()
-        {
-            return View();
-        }
 
         // GET api/values/5
         [HttpGet("{id}")]
