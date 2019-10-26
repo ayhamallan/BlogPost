@@ -15,11 +15,11 @@ To run the App Please follow the following instructions :
       Update-Database -Context PersistedGrantDbContext
       
 3 - Get Token For JWT from /connect/token [Post] [ContentType: application/x-www-form-urlencoded] with the following Body
-    client_id=Blog
-    client_secret=BlogSecret
-    grant_type=password
-    username=user1@email.com
-    password=P@ssw0rd
+    * client_id=Blog
+    * client_secret=BlogSecret
+    * grant_type=password
+    * username=user1@email.com
+    * password=P@ssw0rd
 
 4 - Send the JWT Returned from step 3 with each Api Call as Authorization Header Bearer
 
