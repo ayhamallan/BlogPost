@@ -11,8 +11,10 @@ To run the App Please follow the following instructions :
   
   * For Blog.Web => Set Blog.DataModel as StartUp Project => From Command Line Update-Database 
   * For Blog.Security => Set Blog.Security.Infrastructure as a StartUp Project => From Command Line 
-      Update-Database -Context BlogIdentityDbContext
-      Update-Database -Context PersistedGrantDbContext
+      
+      - Update-Database -Context BlogIdentityDbContext
+      
+      - Update-Database -Context PersistedGrantDbContext
       
 3 - Get Token For JWT from /connect/token [Post] [ContentType: application/x-www-form-urlencoded] with the following Body:
 
