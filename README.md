@@ -23,6 +23,6 @@ To run the App Please follow the following instructions :
 
 4 - Send the JWT Returned from step 3 with each Api Call as Authorization Header Bearer
 
-*run Blog.Web => /index.html to check all the Apis using Swagger 
-*run Blog.Web => /Notification/PostNotification to check Notification when adding a Blog Post
+* run Blog.Web => /index.html to check all the Apis using Swagger 
+* run Blog.Web => /Notification/PostNotification to check Notification when adding a Blog Post
     
