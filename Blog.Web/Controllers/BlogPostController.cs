@@ -18,13 +18,11 @@ namespace Blog.Web.Controllers
     [Authorize]
     public class BlogPostController : BaseController
     {
-        private readonly IUnitOfWork _uow;
         private readonly IRepository<BlogPost> _repo;
         private readonly IBlogPostServie _blogPostService;
         private IHubContext<NotificationHub> _notificationHubContext;
-        public BlogPostController(IUnitOfWork unit, IRepository<BlogPost> repo, IBlogPostServie blogPostServie , IHubContext<NotificationHub> notificationHubContext)
+        public BlogPostController(IRepository<BlogPost> repo, IBlogPostServie blogPostServie , IHubContext<NotificationHub> notificationHubContext)
         {
-            _uow = unit;
             _repo = repo;
             _blogPostService = blogPostServie;
             _notificationHubContext = notificationHubContext;
